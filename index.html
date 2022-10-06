@@ -1,8 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
+    <title>CSE110 - Lab 2</title>
+    <meta charset="UTF-8"/>
+    <link rel="icon" href="https://www.kindpng.com/picc/m/279-2799344_meeting-minutes-meeting-minutes-icon-transparent-hd-png.png">
   </head>
+
   <body>
+    <header>
+      <h1>Meeting Minutes - Food and Cuisine Commission</h1>
+      <h2>Dinner Time Schedule</h2> 
+      <h3>Date: October 5, 2022</h3>
+    </header>
+
+    <hr>
+
+
+    <section>
+      <h3>Attendance</h3>
+      <div>
+        <p> Attendance <span>(Physical Presence)</span> sheet :</p>
+      </div>
+      <ul>
+        <li>George RRR Martin</li>
+        <li>Gregory Heffley</li>
+        <li>Horatio Fortinbras</li>
+      </ul>
+      <div>
+        <p> Virtual Attendance <span>(Zoom/Skype)</span> sheet :</p>
+      </div>
+      <ul>
+        <li>Douglas Adams</li>
+        <li>Michael Afton</li>
+      </ul>
+      <div>
+        <p> Absentees : <strong>[2 total]</strong></p>
+      <ul>
+        <li>Vasanth Senthil</li>
+        <li>Mario Luigi</li>
+      </ul>
+      </div>
+    </section>
+
+    <hr>
+
+    <main>
+      <section>
+        <h3>Agenda Item 1</h3>
+        <p><b>Presenter</b> : <i>Gregory Heffley</i></p>
+        <p>The comittee of dinnertime has decided the new dinner schedule for the week of 10/10/22:</p>
+        <ol>
+          <li>Monday : Mexican Takeout</li>
+          <li>Tuesday : Chinese Takeout</li>
+          <li>Wednesday : Homecooking (up to <em>cook's</em> preference, not individual)</li>
+          <li>Thursday : Pizza</li>
+          <li>Friday : TBD</li>
+          <li>Saturday : TBD</li> 
+          <li>Sunday : Ramen Night </li>
+        </ol>
+        <p><strong>THIS SCHEDULE IS <em>TENTATIVE</em> AND SUBJECT TO CHANGE</strong></p>
+        <p>Visit <a href="https://en.wikipedia.org/wiki/Food">here</a> for a detailed nutrition rundown.</p>
+      </section>
+
+      <hr>
+
+      <section>
+        <h3>Agenda Item 2</h3>
+        <p><b>Presenter</b> : <i>Michael Afton</i></p>
+        <p>Michael Afton has chosen to give up his seat on the commitee of dinnertime. <br> A replacement will be hired by majority vote. <br> Prospective candidates can submit their names to the form below and begin preparing their formal statements. <br> Candidates are encouraged to submit their statements ASAP.</p>
+        <p><strong>Read the candidacy requirements before submission of candidate statement to Vasanth Senthil.</strong></p>
+        <details>
+          <summary>CANDIDACY REQUIREMENTS</summary>
+          <p>Any candidate looking to apply to the commitee must be :</p>
+          <ul>
+            <li>18 years of age or older.</li>
+            <li>a member of the Food and Cuisine Commission for atleast 2 years.</li>
+            <li>capable of attending biweekly meetings according to the schedule posted.</li>
+            <li>able to eat any food group with no allergic reaction.</li>
+          </ul>
+        </details> <br> <br>
+
+        <form>
+          <fieldset>
+            <legend>Interest Form</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name"><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" name="date"><br><br>
+
+            <p>Please select your position in the Commission.</p>
+            <input type="radio" id="trainee" name="position" value="trainee">
+            <label for="trainee">Trainee</label><br>
+            <input type="radio" id="junior" name="position" value="junior">
+            <label for="position">Junior Member</label><br>
+            <input type="radio" id="senior" name="senior" value="senior">
+            <label for="position">Senior Member</label><br><br>
+
+            <p>Please check all that apply. I am available </p>
+            <input type="checkbox" id="d1" name="timeslot" value="all times">
+            <label for="d1">any time during the day.</label><br>
+            <input type="checkbox" id="d2" name="timeslot" value="8-10">
+            <label for="d2">between 8am and 10am.</label><br>
+            <input type="checkbox" id="d3" name="timeslot" value="1-3">
+            <label for="d3">between 1pm and 3pm..</label><br>
+            <input type="checkbox" id="d4" name="timeslot" value="after9">
+            <label for="d4">after 9pm</label><br><br>
+
+            <label for="cuisine">Choose your favorite cuisine from the list:</label>
+            <input list="cuisines" name="cuisine">
+            <datalist id="cuisines">
+              <option value="Mexican">
+              <option value="Chinese">
+              <option value="Indian">
+              <option value="Japanese">
+              <option value="Italian">
+            </datalist><br><br>
+
+            <label for="day">Choose a favored meeting day:</label>   
+            <select name="days">
+              <option value="Monday">Monday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+              <option value="Saturday">Saturday</option>
+            </select><br><br> 
+
+            <h4>Additional Comments<h4>
+            <textarea id="extra_space" rows="3" cols="50">Please list any questions or concerns you have.</textarea> <br><br>
+
+            <button type="button">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <hr>
+
+    <section>
+      <h3>Logs</h3>
+      <h4>Meeting Audio</h4>
+      <audio controls>
+        <source src="/media/audio.mp3" type="audio/mp3">
+      </audio>
+
+      <h4>Meeting Video</h4>
+      <video controls>
+        <source src="/media/video.mp4" type="video/mp4">
+      </video>
+
+      <h4>Meeting Image</h4>
+      <img src="/media/image.jpeg" alt="Meeting Image">
+    </section><br><br>
+
+    <hr>
+    <hr>
+
+    <footer>
+      <h3>Additional Links</h3>
+      <nav>
+        <a href="https://en.wikipedia.org/wiki/Cake">Cake</a><br>
+        <a href="https://en.wikipedia.org/wiki/Pie">Pie</a><br>
+        <a href="https://en.wikipedia.org/wiki/Tart">Tart</a><br>
+      </nav>
+      <p><em>Trademarked FaC Commission</em></p>
+    </footer>
   </body>
 </html>
