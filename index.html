@@ -87,15 +87,15 @@
             <input type="text" id="name" name="name"><br><br>
 
             <label for="date">Date:</label>
-            <input type="date" name="date"><br><br>
+            <input type="date" id="date" name="date"><br><br>
 
             <p>Please select your position in the Commission.</p>
             <input type="radio" id="trainee" name="position" value="trainee">
             <label for="trainee">Trainee</label><br>
             <input type="radio" id="junior" name="position" value="junior">
-            <label for="position">Junior Member</label><br>
+            <label for="junior">Junior Member</label><br>
             <input type="radio" id="senior" name="senior" value="senior">
-            <label for="position">Senior Member</label><br><br>
+            <label for="senior">Senior Member</label><br><br>
 
             <p>Please check all that apply. I am available </p>
             <input type="checkbox" id="d1" name="timeslot" value="all times">
@@ -108,7 +108,7 @@
             <label for="d4">after 9pm</label><br><br>
 
             <label for="cuisine">Choose your favorite cuisine from the list:</label>
-            <input list="cuisines" name="cuisine">
+            <input list="cuisines" id="cuisine" name="cuisine">
             <datalist id="cuisines">
               <option value="Mexican">
               <option value="Chinese">
@@ -118,7 +118,7 @@
             </datalist><br><br>
 
             <label for="day">Choose a favored meeting day:</label>   
-            <select name="days">
+            <select id="day" name="day">
               <option value="Monday">Monday</option>
               <option value="Thursday">Thursday</option>
               <option value="Friday">Friday</option>
