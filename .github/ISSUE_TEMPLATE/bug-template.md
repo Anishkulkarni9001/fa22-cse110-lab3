@@ -1,6 +1,6 @@
 ---
-name: Lab 3 - Issue Template
-about: Tracks issues with adding CSS.
+name: Bug Template
+about: Tracks bugs and problems.
 title: "[BUG] *Insert bug here*"
 labels: ''
 assignees: Anishkulkarni9001
