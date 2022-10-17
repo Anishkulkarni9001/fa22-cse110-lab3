@@ -1,15 +1,15 @@
 /* import third-party font */
 @font-face {
     font-family: "Titillium";
-    src: url("/media/Fonts/TitilliumWeb-SemiBold.ttf")
+    src: url("media/Fonts/TitilliumWeb-SemiBold.ttf")
 }
 @font-face {
     font-family: "TitilliumBold";
-    src: url("/media/Fonts/TitilliumWeb-Bold.ttf")
+    src: url("media/Fonts/TitilliumWeb-Bold.ttf")
 }
 @font-face {
     font-family: "TitilliumBlack";
-    src: url("/media/Fonts/TitilliumWeb-Black.ttf")
+    src: url("media/Fonts/TitilliumWeb-Black.ttf")
 }
 
 body {
