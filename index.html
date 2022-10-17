@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+</style>
+
   <head>
-    <title>CSE110 - Lab 2</title>
+    <title>CSE110 - Lab 3</title>
     <meta charset="UTF-8"/>
     <link rel="icon" href="https://www.kindpng.com/picc/m/279-2799344_meeting-minutes-meeting-minutes-icon-transparent-hd-png.png">
+    <link rel="stylesheet" href="index.css">
   </head>
-
+  
   <body>
     <header>
       <h1>Meeting Minutes - Food and Cuisine Commission</h1>
@@ -15,27 +19,24 @@
 
     <hr>
 
-
-    <section>
-      <h3>Attendance</h3>
-      <div>
-        <p> Attendance <span>(Physical Presence)</span> sheet :</p>
+    <section id="Attendance">
+      <h3 class="title" name="titlething">Attendance</h3>
+      <div id="namestitle">
+        <p id="flexitem"> Attendance <span>(Physical Presence)</span></p>
+        <p id="flexitem"> Virtual Attendance <span>(Zoom/Skype)</span></p>
+        <p id="flexitem"> Absentees<strong>[2 total]</strong></p>
       </div>
-      <ul>
+      <div id="namelist">
+      <ul id="flexitem">
         <li>George RRR Martin</li>
         <li>Gregory Heffley</li>
         <li>Horatio Fortinbras</li>
       </ul>
-      <div>
-        <p> Virtual Attendance <span>(Zoom/Skype)</span> sheet :</p>
-      </div>
-      <ul>
+      <ul id="flexitem">
         <li>Douglas Adams</li>
         <li>Michael Afton</li>
       </ul>
-      <div>
-        <p> Absentees : <strong>[2 total]</strong></p>
-      <ul>
+      <ul id="flexitem">
         <li>Vasanth Senthil</li>
         <li>Mario Luigi</li>
       </ul>
@@ -45,29 +46,30 @@
     <hr>
 
     <main>
-      <section>
-        <h3>Agenda Item 1</h3>
-        <p><b>Presenter</b> : <i>Gregory Heffley</i></p>
-        <p>The comittee of dinnertime has decided the new dinner schedule for the week of 10/10/22:</p>
-        <ol>
+      <section id="Agenda1">
+        <h3 class="title" style="text-align:center">Agenda Item 1</h3>
+        <p class="emph_block"><b>Presenter</b> : <i>Gregory Heffley</i></p>
+        <p id="Agenda1Body"><p class="emph_inline">Commitee of Dinnertime</p> has decided the new dinner schedule for the week of 10/10/22:</p>       
+        <ol id="weekly">
           <li>Monday : Mexican Takeout</li>
           <li>Tuesday : Chinese Takeout</li>
-          <li>Wednesday : Homecooking (up to <em>cook's</em> preference, not individual)</li>
+          <li>Wednesday : Homecooking (up to <em> cook's </em> preference, not individual)</li>
           <li>Thursday : Pizza</li>
-          <li>Friday : TBD</li>
-          <li>Saturday : TBD</li> 
+          <li id="colorme">Friday : TBD</li>
+          <li id="colorme">Saturday : TBD</li> 
           <li>Sunday : Ramen Night </li>
         </ol>
-        <p><strong>THIS SCHEDULE IS <em>TENTATIVE</em> AND SUBJECT TO CHANGE</strong></p>
+        <p><strong>UNDERLINED ITEMS ARE <em>TENTATIVE</em> AND SUBJECT TO CHANGE</strong></p>
         <p>Visit <a href="https://en.wikipedia.org/wiki/Food">here</a> for a detailed nutrition rundown.</p>
       </section>
 
       <hr>
 
-      <section>
-        <h3>Agenda Item 2</h3>
-        <p><b>Presenter</b> : <i>Michael Afton</i></p>
-        <p>Michael Afton has chosen to give up his seat on the commitee of dinnertime. <br> A replacement will be hired by majority vote. <br> Prospective candidates can submit their names to the form below and begin preparing their formal statements. <br> Candidates are encouraged to submit their statements ASAP.</p>
+      <section id="Agenda2">
+        <h3 class="title" style="text-align:center">Agenda Item 2</h3>
+        <p class="emph_block"><b>Presenter</b> : <i>Michael Afton</i></p>
+        <span><p id="Agenda2Body">Michael Afton has chosen to give up his seat on the commitee of dinnertime.</p></span>
+        <p>A replacement will be hired by majority vote. <br> Prospective candidates can submit their names to the form below and begin preparing their formal statements. <br> Candidates are encouraged to submit their statements ASAP.</p>
         <p><strong>Read the candidacy requirements before submission of candidate statement to Vasanth Senthil.</strong></p>
         <details>
           <summary>CANDIDACY REQUIREMENTS</summary>
@@ -136,21 +138,23 @@
 
     <hr>
 
-    <section>
-      <h3>Logs</h3>
+    <section id="Logs">
+      <h3 style="text-align:center ; text-decoration:underline">Logs</h3>
+    <div id="grid">
       <h4>Meeting Audio</h4>
       <audio controls>
         <source src="/media/audio.mp3" type="audio/mp3">
       </audio>
 
       <h4>Meeting Video</h4>
-      <video controls>
+      <video id="vid" controls>
         <source src="/media/video.mp4" type="video/mp4">
       </video>
+    </div>
 
-      <h4>Meeting Image</h4>
-      <img src="/media/image.jpeg" alt="Meeting Image">
-    </section><br><br>
+      <h4 style="text-align: center;">Meeting Image</h4>
+      <img class="meetingimg" src="/media/image.jpeg" alt="Meeting Image">
+    </section>  
 
     <hr>
     <hr>
